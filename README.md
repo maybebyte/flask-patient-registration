@@ -16,6 +16,8 @@
 - Patient registration form with validation.
 - Structured Query Language (SQL) database support with SQLite.
 - Confirmation page with entered data.
+- Responsive and minimal browser styling with
+  [pico.css](https://github.com/picocss/pico).
 
 ## Overview
 
