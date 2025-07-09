@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='pico.min.css') }}>
+    <title>Successfully registered patient</title>
+  </head>
+  <body>
+    <h1>You have successfully registered the patient</h1>
+
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+
+    <p>You may review the submitted information below:</p>
+    <p><strong>First Name:</strong> {{ first_name }}</p>
+    <p><strong>Last Name:</strong> {{ last_name }}</p>
+    <p><strong>Date of Birth:</strong> {{ date_of_birth }}</p>
+    <p><strong>Therapist Name:</strong> {{ therapist_name }}</p>
+    <a href="{{ url_for('display_form') }}">Register another patient</a>
+  </body>
+</html>

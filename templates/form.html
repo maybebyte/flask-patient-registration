@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='pico.min.css') }}>
+    <title>Patient Registration</title>
+  </head>
+  <body>
+    <h1>Patient Registration</h1>
+
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('submit') }}">
+      <label>Patient First Name:</label>
+      <input type="text" name="first_name" autocomplete="off" required>
+
+      <label>Patient Last Name:</label>
+      <input type="text" name="last_name" autocomplete="off" required>
+
+      <label>Date of Birth:</label>
+      <input type="date" name="date_of_birth" max="{{ today }}" autocomplete="off" required>
+
+      <label>Therapist Name:</label>
+      <input type="text" name="therapist_name" autocomplete="off" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
