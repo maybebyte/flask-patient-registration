@@ -8,6 +8,7 @@
 - [Overview](#overview)
 - [Running the app](#running-the-app)
 - [Considerations for production](#considerations-for-production)
+- [Screenshots](#screenshots)
 
 <!-- mtoc-end -->
 
@@ -116,3 +117,10 @@ examples include:
   capabilities, such as PostgreSQL.
 - The code initializes the database at the module level---not a good
   practice, but it works for a basic demo.
+
+## Screenshots
+
+![Patient registration (light theme)](./screenshots/patient_registration-light.png)
+![Confirmation page (light theme)](./screenshots/successfully_registered_patient-light.png)
+![Patient registration (dark theme)](./screenshots/patient_registration-dark.png)
+![Confirmation page (dark theme)](./screenshots/successfully_registered_patient-dark.png)
