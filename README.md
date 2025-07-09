@@ -108,7 +108,8 @@ examples include:
 - HyperText Transport Protocol Secure (HTTPS) support. [See Request For
   Comments (RFC) 9325](https://datatracker.ietf.org/doc/rfc9325) for more
   details on secure configuration.
-- Patient management kept behind a login.
+- Patient management kept behind a login, and therapists can only manage
+  their own patients.
 - Fine-grained access controls with a robust security model from the
   start.
 - Secure deployment on a server that meets Health Insurance
