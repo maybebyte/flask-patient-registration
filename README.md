@@ -1,4 +1,4 @@
-# Flask clinic app
+# Flask patient registration demo
 
 ## Table of contents
 
