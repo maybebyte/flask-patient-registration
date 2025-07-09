@@ -4,13 +4,20 @@
 
 <!-- mtoc-start -->
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Overview](#overview)
 - [Running the app](#running-the-app)
 - [Considerations for production](#considerations-for-production)
-- [Screenshots](#screenshots)
 
 <!-- mtoc-end -->
+
+## Screenshots
+
+![Patient Registration form with dark background. Form contains four input fields: Patient First Name filled with 'John', Patient Last Name filled with 'Smith', Date of Birth filled with '01/01/2001', and Therapist Name filled with 'Jane Smith'. A blue Submit button appears at the bottom.](./screenshots/patient_registration-dark.png)
+![Patient Registration form with light background. Same form layout as previous image with identical information: John Smith, date of birth 01/01/2001, therapist Jane Smith, and blue Submit button](./screenshots/patient_registration-light.png)
+![Success page with dark background displaying 'You have successfully registered the patient' as main heading. Below shows review text and submitted information: First Name: John, Last Name: Smith, Date of Birth: 2001-01-01, Therapist Name: Jane Smith. Blue 'Register another patient' link appears at bottom.](./screenshots/successfully_registered_patient-light.png)
+![Success page with light background showing identical content to previous success page: registration confirmation heading, submitted patient information for John Smith, and 'Register another patient' link.](./screenshots/successfully_registered_patient-dark.png)
 
 ## Features
 
@@ -117,10 +124,3 @@ features expected in production. Some examples include:
   capabilities, such as PostgreSQL.
 - The code initializes the database at the module level---not a good
   practice, but it works for a basic demo.
-
-## Screenshots
-
-![Patient registration (light theme)](./screenshots/patient_registration-light.png)
-![Confirmation page (light theme)](./screenshots/successfully_registered_patient-light.png)
-![Patient registration (dark theme)](./screenshots/patient_registration-dark.png)
-![Confirmation page (dark theme)](./screenshots/successfully_registered_patient-dark.png)
