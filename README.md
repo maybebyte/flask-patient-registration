@@ -95,9 +95,8 @@ $ deactivate
 
 ## Considerations for production
 
-As this code represents a proof of concept / minimal viable product,
-it lacks many safeguards and features expected in production. Some
-examples include:
+As this code represents a proof of concept, it lacks many safeguards and
+features expected in production. Some examples include:
 
 - Stricter validation logic (for example: a character allowlist and
   enforced formats).
